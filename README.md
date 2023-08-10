@@ -1,20 +1,17 @@
-# Yandex-Practicum <a id='numerical_analysis'></a>
+# Yandex-Practicum <a id='machine_learning_for_text'></a>
 ## Repository of the Data Science Specialist course.
-### Yandex Practicum / Sprint #14 - Numerical Analysis
+### Yandex Practicum / Sprint #16 - Machine Learning for Text
 
 *Project Description*
 
-<img src="https://github.com/DimaDoesCode/Yandex_Practicum-Numerical_Analysis/blob/master/numerical_analysis.png" width="200" height="200" align="left"/>
+<img src="https://github.com/DimaDoesCode/Yandex_Practicum-Machine_Learning_for_Text/blob/master/machine_learning_for_text.png" width="200" height="200" align="left"/>
 
-A used car sales service called 'No Accidents, No Repaints' is developing an application to attract new customers. In this app, users will be able to find out the market value of their car. Build a model that can determine this value. You have access to data on technical specifications, configurations, and prices of other cars.
+The online store "WikiShop" is launching a new service. Now users can edit and enhance product descriptions, similar to wiki communities. In other words, customers suggest their edits and comment on others' changes. The store requires a tool that can identify toxic comments and send them for moderation.<br>
 
-The customer's important criteria are:<br>
-◦ Prediction accuracy<br>
-◦ Model training time<br>
-◦ Model prediction time
+Train a model to classify comments into positive and negative categories. You have a dataset with labels indicating the toxicity of edits. Build a model with an F1 quality metric of no less than 0.75.
 
 <br clear="left"/><br>*This project was completed during the learning process in Yandex.Practicum, in the Data Science Specialist profession.*
 
 | Project Name | Description | Libraries used |
 | :---------------------- | :---------------------- | :---------------------- |
-| [Numerical Analysis](numerical_analysis) | A 'No Accidents, No Repaints' used car sales service is developing an application to attract new customers. The app's main goal is to determine the market value of users' cars using a model based on technical specifications, configurations, and prices of other vehicles. The customer emphasizes the importance of accurate predictions, efficient model training, and fast prediction times. | <i>joblib, matplotlib.pyplot, optuna, os.path, pandas, phik, random, scipy.stats, sklearn, time, warnings</i>|
+| [Machine Learning for Text](machine_learning_for_text) | Train a model to classify comments into positive and negative categories. You have a dataset with labels indicating the toxicity of edits. Build a model with an F1 quality metric of no less than 0.75. | <i>joblib, matplotlib.pyplot, nltk, os, pandas, random, re, requests, seaborn, sklearn, spacy, tqdm</i>|
